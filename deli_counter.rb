@@ -9,6 +9,6 @@ def line(customer)
     customer.each_with_index do |customer_name, index|
       line << " #{index + 1}. #{customer_name}"
     end
-    puts "The line is currently: " + line
+    puts "The line is currently:" + line
   end
 end
