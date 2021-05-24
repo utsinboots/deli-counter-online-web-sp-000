@@ -26,6 +26,7 @@ def now_serving(katz_deli)
       puts "Currently serving #{name}."
       katz_deli.shift
     end
+    line(katz_deli)
   end
   #now_serving(katz_deli)
 end
