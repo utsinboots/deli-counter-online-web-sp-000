@@ -7,8 +7,8 @@ def line(customer)
     puts "The line is currently empty."
   else
     customer.each_with_index do |customer_name, index|
-      line << (index + 1) + ". " + customer_name
+      line << " #{index + 1}. #{customer_name}"
     end
-    puts "The line is currently: #{line}"
+    puts "The line is currently: " + line
   end
 end
