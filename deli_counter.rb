@@ -12,3 +12,4 @@ def line(customer)
     puts "The line is currently:" + line
   end
 end
+
